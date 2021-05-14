@@ -1,0 +1,333 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #c0c0c0;
+}
+
+header {
+    background-color: #c0c0c0;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+a, a:visited {
+    color: inherit;
+}
+
+a:hover {
+    color: #4682b4;
+}
+
+/* fonts  */
+
+.name {
+    font-family: 'Farro', sans-serif;
+    font-size: 2rem;
+    white-space: nowrap;
+}
+
+.nav-list {
+    font-family: 'Farro', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.header2, .portfolio-header, .skills-heading, h3, .footer-navigation, h4 {
+    font-family: 'Farro', sans-serif;
+
+}
+
+.contact-info, .contact-text, .header-text, .main-text, .skill-item {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header2, .portfolio-header {
+    font-size: 1.8rem;
+}
+
+.header-text, .main-text {
+    font-size: 1.2rem;
+}
+
+.skills-heading {
+    font-size: 2rem;
+}
+
+.skill-item {
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.contact-info, .contact-text {
+    font-size: 1.2rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+.footer-navigation, h4 {
+    font-size: 1.3rem;
+}
+
+/* header  */
+
+.main-header {
+
+    text-align: center;
+}
+
+.nav-list {
+    background-color: white;
+    margin: 4px 20px 0px 20px;
+    padding: 20px;
+}
+
+.name {
+    padding: 15px 0 15px 0;
+    color: #4682b4;
+}
+
+.profile-image {
+    max-width: 70%;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.header-text {
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.portfolio-header, .header2, .main-text {
+    text-align: center;
+}
+
+
+
+
+
+/* main  */
+
+.main-container {
+    background-color: ghostwhite;
+}
+
+.portfolio-header {
+    
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+.header2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.main-text {
+    
+    padding-bottom: 20px;
+}
+
+.main-container {
+    text-align: center;
+}
+
+
+/* skill */
+
+.skills {
+    text-align: center;
+}
+
+.skills-heading {
+    padding-top: 30px;
+    text-decoration: underline black solid;
+    padding-bottom: 10px;
+}
+
+.skill-item {
+    padding-bottom: 10px;
+}
+
+
+.skills {
+    background-color: ghostwhite;
+    border: 2px solid black;
+}
+
+/* footer  */
+
+h3 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+
+
+
+.contact {
+    text-align: center;
+    
+}
+
+.inner-footer {
+    border-top: 1px solid gray;
+}
+
+.contact-text {
+    padding-bottom: 25px;
+}
+
+.contact-info {
+    padding-bottom: 20px;
+}
+
+.inner-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+h4 {
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.footer-nav {
+    display: none;
+    
+}
+
+
+
+
+/* media queries */
+
+@media (min-width: 769px) {
+
+    /* header  */
+
+    .main-header, .main-nav, .about, .portfolios-container  {
+        display: flex;
+    }
+
+
+
+    .main-nav {
+
+        flex-direction: row;
+        
+        justify-content: center;
+        
+    }
+
+    .header-text {
+        order: -1;
+        padding-top: 20px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .profile-image {
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .nav-list {
+        background-color: transparent;
+    }
+    
+
+    .portfolios-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-right: 15px;
+        margin-left: 15px;
+        
+    }
+
+    .main-container {
+        background-color: ghostwhite;
+    }
+
+    .portfolio {
+        flex: 50%;
+        padding-right: 5px;
+        padding-left: 5px;
+        
+    }
+
+    .back-to-top {
+        display: none;
+    }
+
+    .footer-nav {
+        display: flex;
+        margin-right: 10px;
+    }
+
+    .footer-nav-list {
+        padding-right: 20px;
+    }
+
+
+
+
+}
+
+@media (min-width: 1025px) {
+    
+    .header-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+
+    .portfolio {
+        flex: 30%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .main-container {
+        background-color: ghostwhite;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .skills {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .name {
+        margin-left: 20px;
+    }
+
+    
+
+
+}
