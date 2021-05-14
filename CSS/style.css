@@ -225,7 +225,7 @@ h4 {
 
 /* media queries */
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
 
     /* header  */
 
@@ -297,7 +297,7 @@ h4 {
 
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
     
     .header-container {
         display: flex;
